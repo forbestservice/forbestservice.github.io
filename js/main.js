@@ -1,9 +1,9 @@
 jQuery(function($) {
   "use strict";
 
-  $.validate();
+  // $.validate();
 
-  new WOW().init();
+  // new WOW().init();
   //Variables
   var fixed_point = 0;
   var loaded = false;
