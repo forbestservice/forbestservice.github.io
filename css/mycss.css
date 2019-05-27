@@ -1,4 +1,9 @@
 body {
-    height: 100vh;
-    overflow: hidden;
+  height: 100vh;
+  overflow: hidden;
+}
+.info-box {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
