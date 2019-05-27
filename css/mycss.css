@@ -2,8 +2,33 @@ body {
   height: 100vh;
   overflow: hidden;
 }
+header {
+  background: url(../img/slider1.jpg) no-repeat center center;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+}
 .info-box {
+  color: #ffffff;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+}
+
+.subheading {
+  color: #b0b0b0;
+}
+
+.info-box > div {
+  display: inline-block;
+  text-align-last: left;
+  padding: 0 1em;
+}
+
+.info-box a {
+  color: #ffffff;
+  text-decoration: unset;
 }
